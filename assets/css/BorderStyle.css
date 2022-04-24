@@ -1,0 +1,76 @@
+.border {
+    width: 1000px;
+    height: 40px;
+    border: 5px solid black;
+    border-radius: 20%;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+}
+.first{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    
+}
+.second{
+    width: 60%;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+    top: 9px;
+    left: 15%;
+    margin: 10px;
+}
+.thirth{
+    width: 8%;
+    height: 40px;
+    background-color: yellow;
+    position: absolute;
+    top: 9px;
+    left: 85%;
+    margin: 10px;
+}
+.thirth .miniborder{
+    border: 3px solid green;
+   width: 35px;
+   height: 25px;
+   position: absolute;
+   top: 5px;
+   left: 20%;
+}
+
+.second .blue-First{
+    width: 25%;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left:5%;
+}
+
+.second .blue-First .insertBlue{
+    width: 20%;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+     left: 80%;
+}
+
+.second .blue-Second{
+    width: 25%;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left:40%;
+}
+
+.second .blue-Thirth{
+    width: 7%;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left:90%;
+}

@@ -1,0 +1,19 @@
+
+section{
+    width: 1500px;
+    height: 1500px;
+    margin: 50px;
+    position: relative;
+    
+}
+div h3{
+    background-color: darkgray;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-top: 15px;
+    
+}
+div .text{
+    height: 800px;
+}
